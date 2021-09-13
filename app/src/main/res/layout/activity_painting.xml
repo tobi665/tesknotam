@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/button_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:text="Wróć" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_centerInParent="true"
+            android:orientation="vertical"/>
+
+        <TextView
+            android:id="@+id/textView_imageCaption"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Przoszę czekać. Trwa odnajdywanie położenia."
+            android:textAlignment="center"
+            android:textColor="#3C3F41"
+            android:textSize="32sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView_painting"
+            android:layout_width="wrap_content"
+            android:layout_height="387dp"
+            android:layout_gravity="center" />
+
+    </LinearLayout>
+
+</RelativeLayout>
